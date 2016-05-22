@@ -9,4 +9,4 @@ By [Véronique Bellamy](http://veroniquebellamy.fr/)
 	* **HTTPAUTH_USR:** By default, this is commented out.
 
 ## Credits
-This project uses the PHP Last.fm API, written by matto1990 and a Plist parser by michaelfox.
+This project uses the [PHP Last.fm API](https://github.com/matto1990/PHP-Last.fm-API), written by matto1990 and [a Plist parser](https://gist.github.com/michaelfox/888563) by michaelfox.
