@@ -1,2 +1,12 @@
-# compare-itunes-to-lastfm
-Compare iTunes Music Library to Last.fm
+# Compare iTunes to Last.fm
+By [Véronique Bellamy](http://veroniquebellamy.fr/)
+
+## Configuring this tool
+* **MYSQL:** By default, set to false. If you wish to allow people to store their data (including yourself), you need MySQL.
+* **REGISTRATION:** By default, this is set to 0. If it is set to 1, registration is disabled for the public but enabled for those who have an invite code. If it is set to 2, registration is enabled for the public. *MYSQL must be set to true and all values must be correctly set in order to use Registration.*
+* **FIRST_INVITE:**
+* **REQUIRE_HTTPAUTH:** By default, this is set to false. Set to true in order to enable this. If you have REGISTRATION defined, this will allow registered users to login. If not, you must define HTTPAUTH_USR and HTTPAUTH_PWD to enable this.
+	* **HTTPAUTH_USR:** By default, this is commented out.
+
+## Credits
+This project uses the PHP Last.fm API, written by matto1990 and a Plist parser by michaelfox.
