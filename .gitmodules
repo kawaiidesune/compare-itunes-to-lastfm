@@ -1,6 +1,3 @@
 [submodule "lib/plist-parser"]
 	path = lib/plist-parser
 	url = https://github.com/kawaiidesune/plist-parser.git
-[submodule "lib/lastfm"]
-	path = lib/lastfm
-	url = https://github.com/matto1990/PHP-Last.fm-API.git
